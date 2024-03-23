@@ -23,6 +23,7 @@ find_library( GLUT_glut_LIBRARY NAMES glut glut32 freeglut
               ${OPENGL_LIBRARY_DIR}
               ${GLUT_ROOT_PATH}/Release)
 find_package(Lib3ds REQUIRED)
+find_package(DevIL REQUIRED)
 
 include_directories( ${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS} lib)
 target_link_libraries(glutdozero GL GLU glut 3ds SDL2_image IL)
