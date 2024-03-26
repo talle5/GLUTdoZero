@@ -1,10 +1,13 @@
-# Como Instalar:
-## Com Dev Containers:
+# Como construir:
+
+## Dependencias:
+
+### Com Dev Containers:
 
 * docker
-* uma ide com suporte ao [dev containers](https://containers.dev/)
+* uma IDE com suporte ao [dev containers](https://containers.dev/)
 
-## Sem Dev Containers:
+### Sem Dev Containers:
 
 * cmake
 * opengl
@@ -13,3 +16,13 @@
 * libdevil
 * lib3ds
 
+## Construir:
+
+```sh
+git clone https://github.com/talle5/GLUTdoZero.git
+cd GLUTdoZero
+cmake -S . -B build
+ninja -C build
+```
+
+binário final em: build/GLUTdoZero.bin
