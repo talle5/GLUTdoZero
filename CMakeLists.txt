@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.22)
 project(GLUTdoZero)
 
 set(CMAKE_CXX_STANDARD 17) 
-set(CMAKE_GENERATOR Ninja)
 
 add_executable(glutdozero main.cpp
                     lib/utility/Camera.cpp

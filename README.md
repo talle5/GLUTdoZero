@@ -10,6 +10,7 @@
 ### Sem Dev Containers:
 
 * cmake
+* make
 * opengl
 * freeglut
 * sdl2_image
@@ -22,7 +23,7 @@
 git clone https://github.com/talle5/GLUTdoZero.git
 cd GLUTdoZero
 cmake -S . -B build
-ninja -C build
+make -C build
 ```
 
 binário final em: build/GLUTdoZero.bin
